@@ -1,0 +1,38 @@
+.work_company{
+	width: 33.33%;
+	font-family: SourceCodePro-Medium;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    font-size: 19px;
+}
+
+.color-inherit{
+    color: inherit;
+    font-size: 20px;
+}
+
+.work_post{
+	width: 70%;
+	font-family: SourceCodePro-Medium;
+    text-transform: uppercase;
+    color: #47abc8;
+    font-size: 15px;
+}
+
+.work_dates{
+    width: 30%;
+    font-family: Fontin_Sans_I;
+    color: black;
+    font-size: 15px;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+.work_description{
+	width: 70%;
+	font-family: Fontin_Sans_R;
+	color: black;
+    font-size: 15px;
+    vertical-align: top;
+}

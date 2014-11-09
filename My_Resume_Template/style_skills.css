@@ -1,0 +1,179 @@
+.hardware_software{
+  width: 100%;
+}
+
+.hardware{
+  width: 33.33%;
+  text-align: left;
+  padding-right: 25px;
+}
+
+.software{
+  width: 33.33%;
+  text-align: left;
+  padding-right: 25px;
+}
+
+.others{
+  width: 33.33%;
+  text-align: left;
+  padding-right: 25px;
+}
+
+.others{
+  /*height: 33.33%;*/
+  text-align: left;
+}
+
+.skill_img{
+  width: 105%;
+  vertical-align: bottom;
+}
+
+.font-awesome-skills{
+    font-family: 'FontAwesome';
+    font-size: 14px;
+    color: black;
+}
+
+.oneskill{
+  font-size: 16px;
+  font-family: Fontin_Sans_R;
+  color: #47abc8;
+  width: 66%;
+}
+
+.full-width{
+  width: 100%;
+}
+
+p1:before {
+    content:"\f082";
+}
+ 
+p2:before {
+    content:"\f08c";
+}
+ 
+p3:before {
+    content:"\f081";
+} 
+
+p4:before {
+    content:"\f0e0";
+}
+
+p5:before{
+    content:"\f0e0";
+}
+
+p6:before{
+    content:"\f095";
+}
+
+p7:before{
+    content:"\f17e";
+}
+
+p8:before {
+    content:"\f005";
+    padding-right: 3px;
+    vertical-align: top;
+}
+
+p9:before {
+    content:"\f006";
+    padding-right: 3px;
+    vertical-align: top;
+}
+
+p10:before {
+  content:"\f015";
+  color: black;
+  padding-right: 3px;
+  vertical-align: top;
+}
+
+p11:before{
+  content:"\f08a";
+  color: black;
+  width: 15px;
+  padding-right: 3px;
+  font-family: 'FontAwesome';
+}
+
+p12:before{
+  content:"\f091";
+  color: black;
+  width: 15px;
+  padding-right: 5px;
+  font-family: 'FontAwesome';
+}
+
+p13:before{
+  content:"\f198";
+  width: 15px;
+  color: black;
+  padding-right: 6px;
+  font-family: 'FontAwesome';
+}
+
+p14:before {
+  content:"\f19d";
+  padding-right: 3px;
+  font-family: 'FontAwesome';
+  color: black;
+}
+
+.quadcopter{
+  width: 15px;
+  padding-right: 5px;
+}
+
+p15:before{
+  content:"\f0b1";
+  color: black;
+  width: 19px;
+  padding-right: 3px;
+  font-family: 'FontAwesome';
+}
+
+p17:before{
+  content:"\f0ad";
+  color: black;
+  width: 19px;
+  padding-right: 3px;
+  font-family: 'FontAwesome';
+}
+
+
+p19:before{
+  content:"\f13b";
+  color: black;
+  width: 19px;
+  padding-right: 3px;
+  font-family: 'FontAwesome';
+}
+
+.fontin{
+  font-size: 19px;
+  font-family: Fontin_Sans_R;
+  color: black;
+}
+
+.interest_img{
+  width: 19px;
+  margin-right: 5px;
+}
+
+
+.padding_right-20{
+  padding-right: 50px;
+}
+/*.padding-right-interest{
+  padding-right: 0px;
+}*/
+
+.padding_left-20{
+  padding-left: 40px;
+}

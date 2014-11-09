@@ -1,0 +1,78 @@
+@font-face {
+    font-family: SourceCodePro-Medium;
+    src: url(fonts/SourceCodePro-Medium.otf);
+}
+
+@font-face {
+    font-family: Fontin_Sans_I;
+    src: url(fonts/Fontin_Sans_I_45b.otf);
+}
+
+@font-face {
+    font-family: Fontin_Sans_B;
+    src: url(fonts/Fontin_Sans_B_45b.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Fontin_Sans_BI;
+    src: url(fonts/Fontin_Sans_BI_45b.otf);
+}
+
+@font-face {
+    font-family: Fontin_Sans_R;
+    src: url(fonts/Fontin_Sans_R_45b.otf);
+}
+
+.work_company{
+	width: 33.33%;
+	font-family: SourceCodePro-Medium;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    font-size: 19px;
+}
+
+.school_company{
+    width: 33.33%;
+    font-family: SourceCodePro-Medium;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    font-size: 19px;
+}
+
+.studies{
+    width: 100%;
+}
+
+.color-inherit{
+    color: inherit;
+    font-size: 20px;
+}
+
+.work_post{
+	width: 70%;
+	font-family: SourceCodePro-Medium;
+    text-transform: uppercase;
+    color: #47abc8;
+    font-size: 15px;
+}
+
+.work_description{
+	width: 70%;
+	font-family: Fontin_Sans_R;
+	color: black;
+    font-size: 15px;
+    vertical-align: top;
+}
+
+.work_dates{
+	width: 30%;
+	font-family: Fontin_Sans_I;
+	color: black;
+    font-size: 15px;
+    vertical-align: top;
+    font-weight: lighter;
+}
+

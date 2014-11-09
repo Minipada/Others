@@ -1,0 +1,77 @@
+.events{
+    width: 70%;
+    vertical-align: top;
+}
+
+.event_img{
+    width: 15px;
+    margin-right: 5px;
+}
+
+.projects_asso{
+    width: 50%; /* ne comprend pas pourquoi mais il faut mettre une grande valeure fixe pour avoir 60/40*/
+    vertical-align: top; 
+}
+
+.speciality{
+    font-family: Fontin_Sans_B;
+    font-size: 15px;
+}
+
+#canvas-holder{
+    text-align: center;
+    margin-left: 50px;
+}
+
+#robotics{
+    position: relative;
+    bottom: 75px;
+    left: 85%;
+}
+
+#DIY{
+    position: relative;
+    bottom:195px;
+    left: 55%;
+}
+
+#Hacking{
+    position: relative;
+    bottom:195px;
+    left: -15px;
+}
+
+#Web{
+    position: relative;
+    bottom:150px;
+    left: -175px;
+}
+
+#dev{
+    position: relative;
+    bottom:135px;
+    left: -250px;
+}
+
+
+#Entrepreneurship{
+    position: relative;
+    bottom:80px;
+    left: -10px;
+}
+
+.pie-legend {
+    font-family: Fontin_Sans_R;
+    color: black;
+    font-size: bold;
+}
+
+
+.wordcloud{
+    width: 90%;
+    text-align: center;
+}
+
+.wordcloud{
+    text-align: center;
+}
