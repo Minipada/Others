@@ -1,0 +1,190 @@
+@import url(http://www.markmurray.co/codepen/entypostyle.css);
+*, *:after, *:before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@font-face {
+	font-family: Cocogoose;
+	src: url(fonts/Cocogoose_trial.otf);
+}
+
+@font-face {
+    font-family: Fontin_Sans_B;
+    src: url(fonts/Fontin_Sans_B_45b.otf);
+    font-weight: bold;
+}
+
+body {
+background-image:url(img/cybermennb40.jpg);
+  -webkit-background-size: cover; /* pour Chrome et Safari */
+  -moz-background-size: cover; /* pour Firefox */
+  -o-background-size: cover; /* pour Opera */
+  background-size: cover; /* version standardisée */
+  margin:0;
+  padding:0;
+}
+
+.name{
+	position: absolute;
+	top: 25%;
+	width: 100%;
+	text-align: center;
+	font-size: 45px;
+	font-family: Cocogoose;
+	color: black;
+}
+
+.tags{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 40%;
+	font-size: 29px;
+	font-family: Cocogoose;
+	color: black;
+}
+
+.container {
+	width: 100%;
+	text-align: center;	
+	position: absolute;
+	right: 2.5%;
+	top: 55%;
+	overflow: hidden;
+}
+
+.row {
+	clear: both;
+}
+.row a {
+  cursor: pointer;
+  display: inline-block;
+  -moz-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+
+.row:nth-child(1) {
+  background: transparent;
+}
+.row:nth-child(1) a {
+  color: #34495e;
+  border: 2px solid;
+  border-radius: 50%;
+  padding: 1em;
+  position: relative;
+  background: transparent;
+  text-decoration: none;
+}
+.row:nth-child(1) a {
+  border-radius: 50%;
+  color: white !important;
+}
+
+.row:nth-child(1) a:hover{
+	border-color: black !important;
+}
+
+.row:nth-child(1) a:not(:first-child) {
+  margin-left: 1em;
+}
+.row:nth-child(1) a:nth-child(1) {
+  color: #007bb6;
+  border-color: #007bb6;
+  background: #007bb6;
+
+}
+.row:nth-child(1) a:nth-child(2) {
+  color: #00aced;
+  border-color: #00aced;
+  background: #00aced;
+
+}
+.row:nth-child(1) a:nth-child(3) {
+  color: #333;
+  border-color: #333;
+  background: #333;
+
+}
+.row:nth-child(1) a:nth-child(4) {
+  color: #3773e0;
+  border-color: #3773e0;
+  background: #3773e0;
+
+}
+/*
+.row:nth-child(1) i:nth-child(1):hover {
+	border-color: black;
+}
+.row:nth-child(1) i:nth-child(2):hover {
+	border-color: black;
+}
+.row:nth-child(1) i:nth-child(3):hover {
+	border-color: black;
+}
+.row:nth-child(1) i:nth-child(4):hover {
+	border-color: black;
+}
+*/
+.resume {
+	background-color:#3d94f6;
+	border-radius: 16px;
+	border:1px solid #337fed;
+	color:black;
+	font-family:Trebuchet MS;
+	font-size:20px;
+	font-weight:bold;
+	height:44px;
+	line-height:44px;
+	width:132px;
+	text-decoration:none;
+	text-align:center;
+	top: 70%;
+
+}
+.resume:hover {
+	cursor: pointer;
+	border-color: black !important;
+	border-width: 1px;
+}
+.fr{
+	position: absolute;
+	left: 48%;
+}
+
+.en{
+	position: absolute;
+	left: 36.6%;
+}
+
+
+.footer{
+	bottom: 0%;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	font-family: Trebuchet MS;
+}
+
+
+.hire_me {
+    line-height:25px;
+    color:black;
+    text-align:center;
+    font-size:25px;
+    font-weight:bold;
+    position: fixed;
+    right: 5%;
+    top: 5%;
+    font-family: Fontin_Sans_B;
+    font-weight: bold;
+    color: black;
+}
+
+.hire_me a:-webkit-any-link{
+	text-decoration:none;
+	font-size: 25px;
+}
