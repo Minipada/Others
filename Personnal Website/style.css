@@ -105,8 +105,8 @@ background-image:url(img/cybermennb40.jpg);
 }
 .row:nth-child(1) a:nth-child(3) {
   color: #333;
-  border-color: #333;
-  background: #333;
+  border-color: rgba(245, 245, 245, 0.5);
+  background:  rgba(245, 245, 245, 0.5);
 
 }
 .row:nth-child(1) a:nth-child(4) {
@@ -164,8 +164,8 @@ background-image:url(img/cybermennb40.jpg);
     font-size:25px;
     font-weight:bold;
     position: fixed;
-    right: 5%;
-    top: 5%;
+    /*right: 5%
+    top: 5%;*/
     font-family: Fontin_Sans_B;
     font-weight: bold;
     color: black;
@@ -174,4 +174,37 @@ background-image:url(img/cybermennb40.jpg);
 .hire_me a:-webkit-any-link{
 	text-decoration:none;
 	font-size: 25px;
+}
+
+linkedinicon:before{
+  content: "\f08c";
+  color: white;
+}
+
+twittericon:before{
+  content: "\f099";
+  color: white;
+}
+
+githubicon:before{
+  content: "\f09b";
+  color: black;
+}
+
+mailicon:before{
+  content: "\f0e0";
+}
+
+.ball_social_network{
+  width: 75px;
+  height: 75px;
+}
+
+.social_network_icon{
+  
+  width: auto;
+  height: auto;
+  font-size: 35px;
+  padding-right: 0px;
+  font-family: 'FontAwesome';
 }
