@@ -114,7 +114,7 @@ background-image:url(img/cybermennb40.jpg);
 	border-radius: 16px;
 	border:1px solid #337fed;
 	color:black;
-	font-family:Trebuchet MS;
+	font-family:'Open Sans', sans-serif;
 	font-size:100%;
 	font-weight:bold;
 	height:44px;
@@ -146,7 +146,7 @@ background-image:url(img/cybermennb40.jpg);
 	text-align: center;
 	position: absolute;
 	width: 100%;
-	font-family: Trebuchet MS;
+  font-family:'Open Sans', sans-serif;
 }
 
 
