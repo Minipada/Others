@@ -62,6 +62,13 @@ a[href^="mailto:"]
     margin: 0mm 0mm 0mm 0mm;
 }
 
+.list_same_vertical_position{
+    position:relative;
+    left:-20px;
+    top: -10px;
+    margin-bottom: -3px;
+}
+
 .pagebreak{
     page-break-before: always; 
 }

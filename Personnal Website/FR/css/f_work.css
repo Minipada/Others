@@ -4,6 +4,7 @@
     font-weight: bold;
     color: black;
     font-size: 19px;
+    vertical-align: top;
 }
 
 .work_post{
@@ -42,4 +43,11 @@
 .quadcopter{
   width: 15px;
   padding-right: 5px;
+}
+
+/* Get new flags on iconfinder.com */
+.flag{
+  width: 25px;
+  vertical-align: top;
+  padding-right: 7px;
 }
