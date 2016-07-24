@@ -1,4 +1,0 @@
-My CV Template
-Designed by David Bensoussan
-
-To transform the html to PDF, use wkhtmltopdf. Download it on the website, don't install it by the package manager or you won't have every features.
