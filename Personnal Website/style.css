@@ -98,18 +98,12 @@ background-image:url(img/cybermennb40.jpg);
 
 }
 .row:nth-child(1) a:nth-child(2) {
-  color: #00aced;
-  border-color: #00aced;
-  background: #00aced;
-
-}
-.row:nth-child(1) a:nth-child(3) {
   color: #333;
   border-color: rgba(245, 245, 245, 0.5);
   background:  rgba(245, 245, 245, 0.5);
 
 }
-.row:nth-child(1) a:nth-child(4) {
+.row:nth-child(1) a:nth-child(3) {
   color: #3773e0;
   border-color: #3773e0;
   background: #3773e0;
