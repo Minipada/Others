@@ -9,7 +9,7 @@ Domain name reserved on ovh
 
 #Server
 ##Apache
-Everything is in the [site-enabled](site-enabled) folder
+Everything is in the [sites-enabled](sites-enabled) folder
 
 ##Ghost blog
 Config can be found on personal drive
