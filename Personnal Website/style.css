@@ -103,10 +103,14 @@ background-image:url(img/cybermennb40_2.jpg);
 
 }
 .row:nth-child(1) a:nth-child(3) {
-  color: #3773e0;
+  color: black;
   border-color: #3773e0;
   background: #3773e0;
+}
 
+.row:nth-child(1) a:nth-child(4) {
+  border-color: #3773e0;
+  background: #2983e0;
 }
 
 .resume {
@@ -188,13 +192,17 @@ mailicon:before{
   content: "\f0e0";
 }
 
+blogicon:before{
+  content: "\f14b";
+  color: white;
+}
+
 .ball_social_network{
   width: 75px;
   height: 75px;
 }
 
 .social_network_icon{
-  
   width: auto;
   height: auto;
   font-size: 35px;
