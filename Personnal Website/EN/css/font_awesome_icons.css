@@ -165,3 +165,11 @@ p25:before{
   padding-right: 3px;
   font-family: 'FontAwesome';
 }
+
+p26:before{
+  content: "\f534";
+  color: black;
+  width: 19px;
+  padding-right: 3px;
+  font-family: 'FontAwesome';
+}
