@@ -1,10 +1,20 @@
+html *
+{
+   font-size: 13px;
+}
+
+body {
+    height: auto;
+    background:#FFF;
+    font-size: 13px;
+}
+
 .dotted_line {
-  border-top: 2px dotted #686868;
-  width:100%;
+    border-top: 2px dotted #686868;
+    width:100%;
 }
 
 .text{
-    font-size: 17px;
     font-family: Fontin_Sans_R;
     vertical-align: top;
     text-align : justify;
@@ -13,6 +23,12 @@
 .text_bold{
     font-family: Fontin_Sans_B;
     font-weight: bold;
+}
+
+.text_italic{
+    font-family: Fontin_Sans;
+    font-style: italic;
+    font-size: 11px;
 }
 
 /* */

@@ -1,6 +1,11 @@
 .big_title{
     font-family: Oswald-Regular;
-    font-size: 25px;    
+    font-size: 25px;
+}
+
+.small_title{
+    font-family: Oswald-Regular;
+    font-size: 15px;
 }
 
 .font_awesome_title{

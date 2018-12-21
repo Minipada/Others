@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: Fontin_Sans_B;
-    src: url(fonts/Fontin_Sans_B_45b.otf);
+    src: url(fonts/Fontin_Sans_B_45b.ttf);
     font-weight: bold;
 }
 
@@ -47,8 +47,16 @@
     src: url(fonts/Oswald-Regular.otf);
 }
 
+p1:before {
+    content:"\f09b";
+}
+
 p2:before {
     content:"\f08c";
+}
+
+p3:before {
+    content:"\f0ac";
 }
 
 p5:before{
@@ -63,19 +71,21 @@ p8:before {
     content:"\f005";
     padding-right: 3px;
     vertical-align: top;
+    width: 15px;
 }
 
 p9:before {
     content:"\f006";
     padding-right: 3px;
     vertical-align: top;
+    width: 15px;
 }
 
 p10:before {
   content:"\f015";
   color: black;
   padding-right: 3px;
-  vertical-align: top;
+  width: 15px;
 }
 
 p11:before{
@@ -104,7 +114,7 @@ p14:before {
 p15:before{
   content:"\f0b1";
   color: black;
-  width: 19px;
+  width: 15px;
   padding-right: 3px;
   font-family: 'FontAwesome';
 }
@@ -112,7 +122,7 @@ p15:before{
 p17:before{
   content:"\f0ad";
   color: black;
-  width: 19px;
+  width: 15px;
   padding-right: 3px;
   font-family: 'FontAwesome';
 }
@@ -121,7 +131,7 @@ p17:before{
 p19:before{
   content:"\f13b";
   color: black;
-  width: 19px;
+  width: 15px;
   padding-right: 3px;
   font-family: 'FontAwesome';
 }
@@ -129,7 +139,7 @@ p19:before{
 p20:before{
   content: "\f085";
   color: black;
-  width: 19px;
+  width: 15px;
   padding-right: 3px;
   font-family: 'FontAwesome';
 }
@@ -137,7 +147,7 @@ p20:before{
 p21:before{
   content: "\f120";
   color: black;
-  width: 19px;
+  width: 15px;
   padding-right: 3px;
   font-family: 'FontAwesome';
 }
@@ -145,7 +155,7 @@ p21:before{
 p22:before{
   content: "\f0e8";
   color: black;
-  width: 19px;
+  width: 15px;
   padding-right: 3px;
   font-family: 'FontAwesome';
 }
@@ -153,7 +163,7 @@ p22:before{
 p24:before{
   content: "\f013";
   color: black;
-  width: 19px;
+  width: 25px;
   padding-right: 3px;
   font-family: 'FontAwesome';
 }

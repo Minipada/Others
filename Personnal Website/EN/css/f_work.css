@@ -1,6 +1,5 @@
 .work_company{
 	font-family: SourceCodePro-Medium;
-    text-transform: uppercase;
     font-weight: bold;
     color: black;
     font-size: 19px;
@@ -9,7 +8,6 @@
 
 .work_post{
     font-family: SourceCodePro-Medium;
-    text-transform: uppercase;
     font-size: 15px;
 }
 
@@ -23,7 +21,6 @@
 .work_description{
     font-family: Fontin_Sans_R;
     color: black;
-    font-size: 17px;
     vertical-align: top;
 }
 
@@ -49,5 +46,5 @@
 .flag{
   width: 25px;
   vertical-align: top;
-  padding-right: 7px;
+  padding-right: 5px;
 }
