@@ -1,5 +1,5 @@
 .work_company{
-	font-family: SourceCodePro-Medium;
+    font-family: 'Source Code Pro Medium';
     font-weight: bold;
     color: black;
     font-size: 19px;
@@ -7,25 +7,26 @@
 }
 
 .work_post{
-    font-family: SourceCodePro-Medium;
+    font-family: 'Source Code Pro Medium';
     font-size: 15px;
 }
 
 .work_dates{
-    font-family: Fontin_Sans_I;
+    font-family: 'Fontin Sans Rg';
+    font-style: italic;
     color: black;
     font-size: 16px;
     vertical-align: top;
 }
 
 .work_description{
-    font-family: Fontin_Sans_R;
+    font-family: 'Fontin Sans Rg';
     color: black;
     vertical-align: top;
 }
 
 .school_company{
-    font-family: SourceCodePro-Medium;
+    font-family: 'Source Code Pro Medium';
     text-transform: uppercase;
     font-weight: bold;
     color: black;

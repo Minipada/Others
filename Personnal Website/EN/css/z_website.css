@@ -19,7 +19,7 @@
     position: fixed;
     left: 2%;
     top:50px;
-    font-family: Fontin_Sans_B;
+    font-family: 'Fontin Sans Rg';
 }
 .download_button:hover {
     border: 1px solid black;
@@ -40,7 +40,7 @@
     position: fixed;
     left: 2%;
     bottom:50px;
-    font-family: Fontin_Sans_B;
+    font-family: 'Fontin Sans Rg';
 }
 .go_back_button:hover {
     border: 1px solid black;

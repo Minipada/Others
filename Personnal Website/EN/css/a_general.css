@@ -15,18 +15,17 @@ body {
 }
 
 .text{
-    font-family: Fontin_Sans_R;
-    vertical-align: top;
+    font-family: 'Fontin Sans Rg';
     text-align : justify;
 }
 
 .text_bold{
-    font-family: Fontin_Sans_B;
+    font-family: 'Fontin Sans Rg';
     font-weight: bold;
 }
 
 .text_italic{
-    font-family: Fontin_Sans;
+    font-family: 'Fontin Sans Rg';
     font-style: italic;
     font-size: 11px;
 }
@@ -67,7 +66,7 @@ body {
 
 a[href^="mailto:"]
 { 
-    font-family: Fontin_Sans_B;
+    font-family: 'Fontin Sans Rg';
     font-weight: bold;
     font-size: 13px;
 }
